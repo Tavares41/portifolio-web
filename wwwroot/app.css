@@ -1,17 +1,12 @@
 html,
 body {
-    background: #f8fafc;
+    background: #a2a8d3;
     font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
-
-#wow {
-    background-color: black;
-    text-align: center;
-    padding: 20px;
-    color: aliceblue
-}
-
 .pagina-inicial  {
     background-color: black;
     text-align: center;
@@ -133,6 +128,7 @@ body {
 @media (max-width: 640px) {
     .pagina-inicial {
         padding: 1rem 1rem 3rem;
+    }
 
     .banner-principal,
     .cartao-destaque {
@@ -144,10 +140,15 @@ body {
     }
 }
 
-footer {
+#hey {
     background-color: rgb(40, 39, 39);
     text-align: center;
     padding: 5px;
     color: aliceblue;
     margin-top: auto;
+}
+
+.footer { 
+    background-color: #113f67;
+    color: aliceblue;
 }
