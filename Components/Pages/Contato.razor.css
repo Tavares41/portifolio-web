@@ -1,5 +1,6 @@
-﻿body { 
-    background-color: #e7eaf6;
+body { 
+    background: #fff7ed;
+    color: #f8fafc;
     min-height: 100vh;
 }
 .container { 
@@ -10,13 +11,13 @@
 #voltar { 
     border-radius: 20%;
     margin: 10px;
-    background-color: aliceblue;
+    background-color: white;
     max-height: 41px;
 }
 
 #voltar a { 
     text-decoration: none;
-    color: black;
+    color: #1e293b;
     
 }
 
@@ -33,12 +34,13 @@ section {
     margin-top: 0px;
     border-radius: 8px;
     box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.7);
-    background-color: aliceblue;
+    background-color: white;
+    color:#1e293b
 }
 
 header { 
     text-align: center;
-    background-color:#38598b;
+    background-color: #222831;
     padding: 5px;
     color: aliceblue;
 }
