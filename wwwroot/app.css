@@ -1,21 +1,22 @@
 html,
 body {
-    background: #a2a8d3;
+    background: aliceblue;
     font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
+
 .pagina-inicial  {
     background-color: black;
     text-align: center;
     padding: 20px;
-    color: aliceblue
+    color: #f8fafc;
 }
 
 .pagina-inicial {
-    background: #f8fafc;
+    background: #dbd8e3;
     color: #1e293b;
     min-height: 100vh;
     padding: 2rem 1.5rem 4rem;
@@ -140,15 +141,3 @@ body {
     }
 }
 
-#hey {
-    background-color: rgb(40, 39, 39);
-    text-align: center;
-    padding: 5px;
-    color: aliceblue;
-    margin-top: auto;
-}
-
-.footer { 
-    background-color: #113f67;
-    color: aliceblue;
-}

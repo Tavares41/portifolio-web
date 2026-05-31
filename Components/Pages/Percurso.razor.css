@@ -1,5 +1,23 @@
 ﻿body { 
     background-color: #e7eaf6;
+    min-height: 100vh;
+}
+.container { 
+    display: flex;
+    justify-content: center;
+}
+
+#voltar { 
+    border-radius: 20%;
+    margin: 10px;
+    background-color: aliceblue;
+    max-height: 41px;
+}
+
+#voltar a { 
+    text-decoration: none;
+    color: black;
+    
 }
 
 h2 { 
@@ -7,10 +25,14 @@ h2 {
 }
 
 section {
-    padding: 10px;
-    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 20px;
+    max-width: 900px;
+    margin-top: 0px;
     border-radius: 8px;
     box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.7);
+    background-color: aliceblue;
 }
 
 header { 
@@ -19,5 +41,6 @@ header {
     padding: 5px;
     color: aliceblue;
 }
+
 
 
